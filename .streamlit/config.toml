@@ -1,0 +1,14 @@
+[theme]
+base = "dark"
+primaryColor = "#F0644E"
+backgroundColor = "#0A0B10"
+secondaryBackgroundColor = "#171923"
+textColor = "#F5F1E8"
+font = "Manrope:https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+headingFont = "DM Serif Display:https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap"
+borderColor = "#333749"
+linkColor = "#F4B55E"
+showWidgetBorder = true
+baseFontSize = 16
+paddingTop = "2.5rem"
+paddingBottom = "3.5rem"

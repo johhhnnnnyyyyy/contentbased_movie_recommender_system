@@ -1,0 +1,1 @@
+since i used a 50k movies dataset from kaggle and was very large in size, im attaching the link to that webpage https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset
