@@ -92,7 +92,27 @@ The app expects `movie_recommender.joblib` to contain a dictionary with:
 
 The model is not included in this repository because of its size. The full source dataset is available on [Kaggle](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset).
 
-### 5. Start the app
+### 5. Download the complete dataset
+
+The GitHub repository includes the smaller dataset files, but the following files are intentionally not committed because GitHub rejects files larger than 100 MB:
+
+- `dataset/credits.csv` — approximately 190 MB
+- `dataset/ratings.csv` — approximately 710 MB
+
+Download [The Movies Dataset from Kaggle](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset), extract it, and copy `credits.csv` and `ratings.csv` into the repository's `dataset/` directory. The complete local layout should include:
+
+```text
+dataset/
+├── credits.csv
+├── keywords.csv
+├── links.csv
+├── movies_metadata.csv
+└── ratings.csv
+```
+
+The application currently needs `movies_metadata.csv` to run. The additional files are required by the training notebook and are kept outside GitHub because of their size.
+
+### 6. Start the app
 
 ```powershell
 python -m streamlit run app.py
@@ -138,6 +158,8 @@ Confirm that the file exists at:
 ```text
 dataset/movies_metadata.csv
 ```
+
+If you need the complete dataset for training, download it from Kaggle and copy the omitted `credits.csv` and `ratings.csv` files into `dataset/` as described above.
 
 ### The app does not open
 
